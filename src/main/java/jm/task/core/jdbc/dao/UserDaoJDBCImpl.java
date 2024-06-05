@@ -13,7 +13,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public UserDaoJDBCImpl() {}
 
     Util util = Util.getInstance();
-    Connection conn = util.getConnection();
+    Connection conn = util.getConnectionJDBC();
 
 
 
